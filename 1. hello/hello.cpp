@@ -1,4 +1,5 @@
 #include <boost/python.hpp>
+using namespace boost::python;
 
 char const* greet()
 {
@@ -7,6 +8,5 @@ char const* greet()
 
 BOOST_PYTHON_MODULE(hello)
 {
-  using namespace boost::python;
   def("greet", greet);
 }
