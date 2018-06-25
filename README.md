@@ -12,3 +12,5 @@ Arch Linux Docker Container
 8.1.0
 ## GNU make Version
 4.2.1
+## (Optional)pkg-config
+0.29.2    
